@@ -29,3 +29,6 @@ symbols.rds
 inst/doc
 .build.timestamp
 man/dot-*
+
+# ignore gc files
+*.gc*
