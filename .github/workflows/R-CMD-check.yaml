@@ -66,12 +66,12 @@ jobs:
       #     sudo apt install libboost1.71-dev libboost-system-dev
       #     sudo apt install libgsl-dev
       #     sudo apt install libssh-dev
-      # - name: Install dependencies
-      #   run: |
-      #     remotes::install_deps(dependencies = TRUE)
-      #     remotes::install_cran("rcmdcheck")
-      #     remotes::install_cran("devtools")
-      #   shell: Rscript {0}
+      - name: Install dependencies
+        run: |
+          remotes::install_deps(dependencies = TRUE)
+          remotes::install_cran("rcmdcheck")
+          remotes::install_cran("devtools")
+        shell: Rscript {0}
 
       - name: Check simulation compiles and runs
         env:
