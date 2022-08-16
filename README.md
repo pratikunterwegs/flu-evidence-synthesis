@@ -1,5 +1,9 @@
 # fluEvidenceSynthesis
 
+ <!-- badges: start -->
+  [![R-CMD-check](https://github.com/pratikunterwegs/flu-evidence-synthesis/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/pratikunterwegs/flu-evidence-synthesis/actions/workflows/R-CMD-check.yaml)
+  <!-- badges: end -->
+
 This repository contains the fluEvidenceSynthesis package which was described in more detail in:
 
 van Leeuwen, Edwin, Petra Klepac, Dominic Thorrington, Richard Pebody, and Marc Baguelin. “FluEvidenceSynthesis: An R Package for Evidence Synthesis Based Analysis of Epidemiological Outbreaks.” PLOS Computational Biology 13, no. 11 (2017): e1005838. https://doi.org/10.1371/journal.pcbi.1005838.

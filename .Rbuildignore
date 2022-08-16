@@ -10,3 +10,4 @@ travis.sh
 .*.tar.gz
 test.log
 .clang-format
+^\.github$
