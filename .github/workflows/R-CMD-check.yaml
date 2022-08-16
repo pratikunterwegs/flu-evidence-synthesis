@@ -15,7 +15,7 @@ jobs:
     name: ${{ matrix.config.os }} (${{ matrix.config.r }})
 
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix:
         config:
           - {os: windows-latest, r: 'release'}
@@ -73,7 +73,7 @@ jobs:
           remotes::install_cran("devtools")
         shell: Rscript {0}
 
-      - name: Check simulation compiles and runs
+      - name: Check package build, install, and test
         env:
           _R_CHECK_CRAN_INCOMING_REMOTE_: false
         run: |
